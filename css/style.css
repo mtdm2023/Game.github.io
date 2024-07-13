@@ -12,7 +12,7 @@ body {
     background-image: url('../images/8682522.jpg');
     background-repeat: no-repeat;
     
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .game_container{
