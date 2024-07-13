@@ -1,0 +1,47 @@
+/* variables */
+:root {--tsfs-scale: 0.75;
+    --tsfs-70: calc(65px * var(--tsfs-scale)); /**/
+    --tsfs-60: calc(55px * var(--tsfs-scale)); /**/
+    --tsfs-48: calc(43px * var(--tsfs-scale));
+    --tsfs-40: calc(35px * var(--tsfs-scale)); /**/
+    --tsfs-32: calc(30px * var(--tsfs-scale)); /**/
+    --tsfs-36: calc(34px * var(--tsfs-scale)); /**/
+    --tsfs-24: calc(22px * var(--tsfs-scale)); /**/
+    --tsfs-64: calc(59px * var(--tsfs-scale)); /**/
+    --tsfs-18: calc(18px * var(--tsfs-scale)); /**/
+    --bs-color-1:#C8BFB0;
+    --bs-color-2:#C1AC7F;
+    --bs-color-3:#EEEEEE;
+    --bs-color-4:#808080;
+    --bs-color-5:#000000;
+    --bs-color-6:#C3B18B;
+    --bs-color-7:#F2F2F2;
+    --bs-color-8:#A37B2C;
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: SomarBold;
+    src: url('../fonts/Somar-Bold.otf');
+}
+
+
+@font-face {
+    font-family: SomarMedium;
+    src: url('../fonts/ArbFONTS-Somar-Medium.otf');
+}
+@font-face {
+    font-family: SomarRegular;
+    src: url('../fonts/ArbFONTS-Somar-Regular.otf');
+}
+@font-face {
+    font-family: SomarSemiBold;
+    src: url('../fonts/ArbFONTS-Somar-SemiBold.otf');
+}
+.SomarBold{font-family: SomarBold;}
+.SomarMedium{font-family: SomarMedium;}
+.SomarRegular{font-family: SomarRegular;}
+.SomarSemiBold{font-family: SomarSemiBold;}
+

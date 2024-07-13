@@ -1,0 +1,57 @@
+@import url('../global/global_styles.css');
+
+
+
+
+@media (min-width: 200px) and (max-width :1350px) {
+    :root
+    {
+        --tsfs-scale: 0.55 !important;
+    }
+}
+
+
+
+
+
+@media (min-width: 576px) {
+   
+
+    :root
+    {
+        --tsfs-scale: 0.65 !important;
+    }
+
+}
+
+
+
+
+@media (min-width: 768px) {
+    :root
+    {
+        --tsfs-scale: 0.75 !important;
+    }   
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    :root
+    {
+        --tsfs-scale: 0.85 !important;
+    }
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+   
+}
+
+

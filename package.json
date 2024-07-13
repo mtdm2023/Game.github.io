@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@interactjs/actions": "^1.10.27",
+    "@interactjs/auto-start": "^1.10.27",
+    "@interactjs/dev-tools": "^1.10.27",
+    "@interactjs/interact": "^1.10.27",
+    "@interactjs/modifiers": "^1.10.27",
+    "interactjs": "^1.10.27"
+  },
+  "devDependencies": {
+    "@interactjs/types": "^1.10.27"
+  }
+}

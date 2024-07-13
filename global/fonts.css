@@ -1,0 +1,33 @@
+/* fonts */
+
+@font-face {
+    font-family: IBMBold;
+    src: url('../font/IBMPlexSansArabic-Bold.ttf');
+}
+@font-face {
+    font-family: IBMExtraLight;
+    src: url('../font/IBMPlexSansArabic-ExtraLight.ttf');
+}
+@font-face {
+    font-family: IBMLight;
+    src: url('../font/IBMPlexSansArabic-Light.ttf');
+}
+@font-face {
+    font-family: IBMMedium;
+    src: url('../font/IBMPlexSansArabic-Medium.ttf');
+}
+@font-face {
+    font-family: IBMRegular;
+    src: url('../font/IBMPlexSansArabic-Regular.ttf');
+}
+@font-face {
+    font-family: IBMSemiBold;
+    src: url('../font/IBMPlexSansArabic-SemiBold.ttf');
+}
+.IBMBold{font-family: IBMBold;}
+.IBMExtraLight{font-family: IBMExtraLight;}
+.IBMLight{font-family: IBMLight;}
+.IBMMedium{font-family: IBMMedium;}
+.IBMRegular{font-family: IBMRegular;}
+.IBMSemiBold{font-family: IBMSemiBold;}
+
