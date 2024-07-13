@@ -50,12 +50,13 @@ body {
     align-items: center;
     cursor: pointer;
     z-index: 1  ;
+    touch-action: none;
 }
 
 .dropzone {
     width: 254px;
     height: 254px;
-
+    touch-action: none;
     margin: 20px;
     position: relative;
 }
