@@ -3,16 +3,7 @@
 margin: 0;
 padding: 0  ;
 }
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-/*     background-image: url('../images/8682522.jpg'); */
-    background-repeat: no-repeat;
-    overflow: hidden !important;
-}
+
 
 .game_container{
     
