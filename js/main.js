@@ -148,6 +148,15 @@ interact('.dropzone').dropzone({
 });
 
 
-document.body.addEventListener('touchmove', function(event) {
-    event.preventDefault();
+    
+document.addEventListener('touchstart', function(event) {
+    if (event.target.classList.contains('draggable')) {
+        event.preventDefault();
+    }
+}, { passive: false });
+
+document.addEventListener('touchmove', function(event) {
+    if (event.target.classList.contains('draggable')) {
+        event.preventDefault();
+    }
 }, { passive: false });
