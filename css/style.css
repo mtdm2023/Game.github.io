@@ -11,8 +11,8 @@ body {
     height: 100vh;
     background-image: url('../images/8682522.jpg');
     background-repeat: no-repeat;
-    touch-action: none; 
-    overflow: scroll;
+  
+    overflow-y: scroll;
 }
 
 .game_container{
