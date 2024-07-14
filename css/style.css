@@ -11,8 +11,8 @@ body {
     height: 100vh;
     background-image: url('../images/8682522.jpg');
     background-repeat: no-repeat;
-  
-    overflow-y: scroll;
+   
+    overflow: scroll;
 }
 
 .game_container{
@@ -24,6 +24,8 @@ body {
 .shapes {
     display: flex;
     gap: 79px;
+    margin: auto;
+    margin-top: 200px;
     /* top: 61%;
     left: 50%;
     transform:  translate(-50% , -50%); */
@@ -96,7 +98,7 @@ body {
 
 .progress-container {
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 20px;
     width: 100%;
     max-width: 150px;
