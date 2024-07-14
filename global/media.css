@@ -3,10 +3,27 @@
 
 
 
-@media (min-width: 200px) and (max-width :1350px) {
+@media (min-width: 200px)  {
     :root
     {
         --tsfs-scale: 0.55 !important;
+    }
+
+    .draggable
+    {
+        width: 100px ;
+        height: 100px ;
+    }
+    .dropzone{
+        width: 120px ;
+       height: 120px ;
+    }
+    .shapes {
+        gap: 0;
+    }
+    .dropzone img{
+        min-width: 120px;
+        width: 100%;
     }
 }
 
@@ -31,7 +48,25 @@
     :root
     {
         --tsfs-scale: 0.75 !important;
-    }   
+    }  
+    .draggable
+    {
+        width: 200px ;
+        height: 200px ;
+    } 
+    .dropzone{
+        width:254px;
+       height: 254px;
+       
+    }
+    .drop_zones
+    {
+        flex-wrap: wrap;
+    }
+    .dropzone img{
+        
+        width: 100%;
+    }
 
 }
 

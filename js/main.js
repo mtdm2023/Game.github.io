@@ -48,7 +48,8 @@ interact('.dropzone').dropzone({
 
         const isCorrectDrop =
             (draggableElement.classList.contains('shape1') && dropzoneElement.classList.contains('zone1')) ||
-            (draggableElement.classList.contains('shape2') && dropzoneElement.classList.contains('zone2') ||draggableElement.classList.contains('shape3') && dropzoneElement.classList.contains('zone3') )
+            (draggableElement.classList.contains('shape2') && dropzoneElement.classList.contains('zone2') ||draggableElement.classList.contains('shape3') && dropzoneElement.classList.contains('zone3') ||draggableElement.classList.contains('shape4') 
+            && dropzoneElement.classList.contains('zone4')|| draggableElement.classList.contains('shape5') && dropzoneElement.classList.contains('zone5'))
 
         if (isCorrectDrop) {
             this.correct_drops +=1;
@@ -148,7 +149,7 @@ interact('.dropzone').dropzone({
 });
 
 
-    
+
 document.addEventListener('touchstart', function(event) {
     if (event.target.classList.contains('draggable')) {
         event.preventDefault();
